@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background-color: rgb(0, 0, 0);
+    padding: 20px 0;
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .header-title {
+    color: rgb(205, 140, 255);
+    margin: 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar-list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-item {
+    margin: 0 15px;
+  }
+  
+  .navbar-item a {
+    text-decoration: none;
+    color: rgb(255, 208, 0);
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-item a:hover {
+    color: #b300ff;
+  }
+  .judul {
+    font-family: 'Times New Roman', Times, serif;
+    color: antiquewhite;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .marquee {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: antiquewhite;
+    background-color: deeppink;
+    padding-top: 0px;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 0vh;
+  }
+  
+  .centered-paragraph {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: antiquewhite;
+    font-size: 20px;
+    padding-top: 0px;
+  }
+  .button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #dd02fa;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+  .button:active {
+    background-color: #3e8e41;
+  }
+   .deskripsi {
+    font-family: 'Times New Roman', Times, serif;
+    color: antiquewhite;
+    font-size: 15px;
+    text-align: center;
+   }
+   .container {
+    text-align: center;
+  }
+  
+  .cool-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #1abc9c;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cool-button:hover {
+    background-color: #086855;
+  }
+  .container2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .image {
+    width: 400px; /* Sesuaikan dengan lebar gambar yang diinginkan */
+    margin-right: 10px; /* Jarak antara gambar dengan teks */
+  }
+  .des2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: antiquewhite;
+    text-align: justify;
+
+  }
+  .gambarkanan {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .text {
+    flex: 1; /* Membuat teks mengisi sisa ruang yang tersedia */
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color:antiquewhite;
+    text-align: left;    
+  }
+
+  .image23 {
+    width: 400px; /* Sesuaikan dengan lebar gambar yang diinginkan */
+    margin-left: 100px; /* Jarak antara gambar dengan teks */
+  }
+  .marquee2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: antiquewhite;
+    background-color: deeppink;
+    text-align: center;
+  }
+  .button33 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6f00ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    font-family: Arial, sans-serif;
+
+  }
+
+  .button33:hover {
+    background-color: #f1fd00;
+    color: coral;
+  }
+  
+  .navbar2 {
+    background-color: rgb(21, 20, 20);
+    overflow: hidden;
+  }
+
+  .navbar2 a {
+    float: left;
+    color: #ffd500;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .navbar2 a:hover {
+    background-color: rgb(205, 255, 3);
+    color: black;
+  }
+
+  .navbar2 a.active {
+    background-color: #cc00f0;
+    color: white;
+  }
